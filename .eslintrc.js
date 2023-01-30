@@ -15,6 +15,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
+  ignorePatterns: ['**/public/**/*.js'],
   rules: {
     indent: ['Error', 2],
     'object-curly-spacing': ['Error', 'always'],
